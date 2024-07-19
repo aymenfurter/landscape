@@ -27,7 +27,7 @@ function showItemDetails(event, itemData) {
             <p>${item.description || 'No description available.'}</p>
             ${item.github ? `
             <div class="github-info">
-                <img src="https://github.com/favicon.ico" alt="GitHub">
+                ${item.github.includes('github.com') ? '<img src="https://github.com/favicon.ico" alt="GitHub">' : ''}
                 <a href="${item.github}" target="_blank">${item.github.includes('github.com') ? 'GitHub' : 'Link'}</a>
             </div>
             ` : ''}
