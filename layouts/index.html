@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="controls">
+    <div class="search-bar"><input type="text" id="search" placeholder="Search..."></div>
+<p style="float:right">A highly opioninated view on the GenAI Landscape 🌈</p>
+    <!--
+    <button class="view-switch" onclick="toggleView()">Switch View</button>-->
+</div>
+<div id="landscape" class="landscape">
+    {{ $categories := .Site.Data.genai_landscape.categories }}
+    {{ range $type := slice "tool" "service" }}
+    <div class="category-group">
+        <div class="category-label {{ $type }}s">{{ title $type }}s</div>
+        <div class="categories">
+            {{ range $categories }}
+            {{ if eq .type $type }}
+            <div class="category">
+                <div class="category-header {{ $type }}s">
+                    <div class="category-logo">
+                        {{ if hasPrefix .logo "http" }}
+                        <img src="{{ .logo }}" alt="{{ .name }} logo">
+                        {{ else }}
+                        {{ .logo }}
+                        {{ end }}
+                    </div>
+                    <h2>{{ .name }}</h2>
+                </div>
+                <div class="items">
+                    {{ range .items }}
+                    <div class="item {{ if eq .size "2x2" }}item-2x2{{ end }}" onclick="showItemDetails(event, {{ . | jsonify }})">
+                        <div class="item-content">
+                            {{ if or (hasSuffix .logo "png") (hasPrefix .logo "http") }}
+                                {{ if hasPrefix .logo "http" }}
+                                <img src="{{ .logo }}" alt="{{ .name }} logo">
+                                {{ else }}
+                                <img src="images/{{ .logo }}" class="item-img" alt="{{ .title }}">
+                                {{ end }}
+                            {{ else }}
+                                <h3>{{ .logo }}</h3>
+                            {{ end }}
+                            <p>{{ if eq .size "2x2" }}{{ .title }}{{ else }}{{ if gt (len .title) 15 }}{{ slicestr .title 0 13 }}..{{ else }}{{ .title }}{{ end }}{{ end }}</p>
+                            <div class="item-tags">
+                                {{ range .tags }}
+                                <span class="item-tag" data-tag="{{ . }}">{{ . }}</span>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+<div id="itemDetails" class="item-details"></div>
+{{ end }}

@@ -1,0 +1,57 @@
+# Hugo files
+/public/
+/resources/_gen/
+/hugo_stats.json
+/config.toml.bak
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Thumbnails
+.Thumbnails
+
+# Files that might appear when using macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.Trashes
+.DS_Store
+.Spotlight-V100
+.TemporaryItems
+.apdisk
+
+# Hugo server caches
+/cache/
+/.lcache/
+/.caches/
+
+# Node modules
+node_modules/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Hugo build directory
+/public/
+/resources/_gen/assets/
+/resources/_gen/images/
+
+# Local build artifacts and intermediate files
+_build/
+.cache/
+dist/
+tmp/

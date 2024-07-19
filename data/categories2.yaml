@@ -1,0 +1,33 @@
+- name: Foundation Models
+  logo: 🤖
+  type: tool
+- name: Sample Apps
+  logo: 📱
+  type: service
+- name: AI Orchestration Frameworks
+  logo: 🔧
+  type: tool
+- name: Load Balancing & Scaling
+  logo: ⚖️
+  type: service
+- name: Observability and Tracing
+  logo: 🔍
+  type: service
+- name: Prompt Engineering Tools
+  logo: 💬
+  type: tool
+- name: Vector Databases
+  logo: 🗃️
+  type: service
+- name: Model Serving
+  logo: 🍽️
+  type: service
+- name: AI Agents Frameworks
+  logo: 🕴️
+  type: tool
+- name: Model Evaluation
+  logo: 📊
+  type: tool
+- name: Data Ingestion and Indexing
+  logo: 📥
+  type: service
