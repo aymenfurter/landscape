@@ -631,14 +631,14 @@ categories:
   - title: openai-aca-lb
     description: Smart load balancing for OpenAI endpoints using YARP C# reverse-proxy
       framework.
-    github: https://github.com/Azure-Samples/openai-aca-lb/
+    github: https://github.com/Azure-Samples/openai-aca-lb
     logo: "\U0001F680"
     tags:
     - LoadBalancing
     type: communityOpensource
   - title: openai-apim-lb
     description: Smart Load Balancing for OpenAI Endpoints and Azure API Management.
-    github: https://github.com/Azure-Samples/openai-apim-lb/
+    github: https://github.com/Azure-Samples/openai-apim-lb
     logo: "\U0001F680"
     tags:
     - APIM
@@ -741,8 +741,10 @@ categories:
       popular large open-source models such as Falcon and Llama2. It simplifies the
       workflow by managing large model files using container images, providing preset
       configurations, and auto-provisioning GPU nodes.
-    github: https://github.com/kaito/kubernetes-ai-toolchain-operator
+    github: https://github.com/Azure/kaito
     logo: kubernetes.png
+    stars: 351    
+    lastModified: '2024-07-20T21:21:36Z'
     size: 2x2
     tags:
     - Kubernetes
