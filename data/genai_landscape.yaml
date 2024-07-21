@@ -304,7 +304,7 @@ categories:
         type: officialOpensource
       - title: Milvus
         description: Hosted on Azure Container Apps for development and prototyping. 
-        github: https://learn.microsoft.com/en-us/azure/container-apps/milvus
+        github: https://learn.microsoft.com/en-us/cli/azure/containerapp/add-on/milvus
         logo: milvus.png
         tags:
           - Vector Search
@@ -312,7 +312,7 @@ categories:
         type: officialOpensource
       - title: Qdrant
         description: Hosted on Azure Container Apps for development and prototyping. 
-        github: https://learn.microsoft.com/en-us/azure/container-apps/qdrant
+        github: https://learn.microsoft.com/en-us/cli/azure/containerapp/add-on/qdrant
         logo: qdrant.png
         tags:
           - Vector Search
@@ -329,7 +329,7 @@ categories:
         type: officialOpensource
       - title: Redis
         description: Hosted on Azure Container Apps for development and prototyping.
-        github: https://learn.microsoft.com/en-us/azure/container-apps/redis
+        github: https://learn.microsoft.com/en-us/cli/azure/containerapp/add-on/redis
         logo: redis.png
         tags:
           - Cache
@@ -337,7 +337,7 @@ categories:
         type: officialOpensource
       - title: Weaviate
         description: Hosted on Azure Container Apps for development and prototyping.
-        github: https://learn.microsoft.com/en-us/azure/container-apps/weaviate
+        github: https://learn.microsoft.com/en-us/cli/azure/containerapp/add-on/weaviate
         logo: weaviate.png
         tags:
           - Vector Search
@@ -394,12 +394,23 @@ categories:
         - AI Agents
         - Multi-Agent Systems
       type: officialOpensource
+    - title: TaskWeaver
+      description: A code-first agent framework for planning and executing data analytics tasks. Preserves both chat and code execution history, ideal for complex data structures.
+      github: https://github.com/microsoft/TaskWeaver
+      size: 2x2
+      logo: taskweaver.png
+      tags:
+        - Agent Framework
+        - Data Analytics
+        - Code Execution
+      type: officialOpensource
+
 
   - name: Data Ingestion and Indexing
     logo: 📥
     type: tool 
     items:  
-      - title: Azure AI Document Intelligence
+      - title: Document Intelligence (Azure AI)
         description: AI service for extracting text, key-value pairs, tables, and structures from documents automatically and accurately.
         logo: documentintelligence.png
         size: 2x2
@@ -536,15 +547,6 @@ categories:
           - Tracing
           - OpenTelemetry
           - LLM
-        type: officialOpensource
-      - title: Prompty
-        description: Create, manage, debug, and evaluate LLM prompts for your AI applications.
-        github: https://github.com/microsoft/prompty
-        logo: prompty.png
-        tags:
-          - Prompt Engineering
-          - Debugging
-          - AI
         type: officialOpensource
   - name: Prompt Engineering Libraries
     logo: 💬
