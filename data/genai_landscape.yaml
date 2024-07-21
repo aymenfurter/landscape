@@ -636,6 +636,8 @@ categories:
     tags:
     - LoadBalancing
     type: communityOpensource
+    lastModified: '2024-07-03T05:29:35Z'
+    stars: 33
   - title: openai-apim-lb
     description: Smart Load Balancing for OpenAI Endpoints and Azure API Management.
     github: https://github.com/Azure-Samples/openai-apim-lb
@@ -644,6 +646,8 @@ categories:
     - APIM
     - LoadBalancing
     type: communityOpensource
+    lastModified: '2024-06-18T15:49:12Z'
+    stars: 51
   - title: LiteLLM
     description: A library to simplify calling AI models from different providers
       using a unified interface. Supports 100+ LLMs including OpenAI, Azure, Anthropic,
@@ -743,8 +747,8 @@ categories:
       configurations, and auto-provisioning GPU nodes.
     github: https://github.com/Azure/kaito
     logo: kubernetes.png
-    stars: 351    
-    lastModified: '2024-07-20T21:21:36Z'
+    stars: 351
+    lastModified: '2024-07-21T01:09:45Z'
     size: 2x2
     tags:
     - Kubernetes
