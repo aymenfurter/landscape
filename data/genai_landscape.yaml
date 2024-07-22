@@ -140,7 +140,7 @@ categories:
     - Clean
     - Azure On Your Data
     type: officialOpensource
-    lastModified: '2024-07-21T19:43:22Z'
+    lastModified: '2024-07-21T23:57:13Z'
     stars: 1467
   - title: Chat with Your Data
     description: Solution Accelerator for the Retrieval-Augmented Generation (RAG)
@@ -191,7 +191,7 @@ categories:
     - Azure Kubernetes Service
     type: communityOpensource
     lastModified: '2024-07-17T22:08:54Z'
-    stars: 1150
+    stars: 1151
   - title: SmartRAG
     description: Elevating Retrieval-Augmented Generation (RAG) with Multi-Agent Systems
       and better indexing, using Azure services and AutoGen framework.
@@ -217,7 +217,7 @@ categories:
     - Python
     type: communityOpensource
     lastModified: '2024-07-21T04:45:49Z'
-    stars: 5670
+    stars: 5671
   - title: Custom Copilot
     description: AI-assisted code editor with intelligent code suggestions, XML validation,
       error highlighting, theme customization, and chat integration using Monaco editor
@@ -424,7 +424,7 @@ categories:
     - AI Integration
     type: officialOpensource
     lastModified: '2024-07-21T07:17:30Z'
-    stars: 20754
+    stars: 20759
   - title: LangChain
     description: A framework for developing applications powered by language models,
       simplifying the entire application lifecycle.
@@ -436,8 +436,8 @@ categories:
     - Application Development
     - AI
     type: communityOpensource
-    lastModified: '2024-07-21T18:23:19Z'
-    stars: 89511
+    lastModified: '2024-07-21T23:27:20Z'
+    stars: 89512
   - title: Semantic Kernel Assistants
     description: Enables the usage of assistants for the Semantic Kernel without relying
       on OpenAI Assistant APIs. It runs locally planners and plugins for the assistants.
@@ -476,7 +476,7 @@ categories:
     - AI Agents
     - Multi-Agent Systems
     type: officialOpensource
-    lastModified: '2024-07-21T18:49:57Z'
+    lastModified: '2024-07-21T21:16:38Z'
     stars: 28621
   - title: TaskWeaver
     description: A code-first agent framework for planning and executing data analytics
@@ -529,8 +529,8 @@ categories:
     - Data Pipeline
     - LLM
     type: communityOpensource
-    lastModified: '2024-07-21T06:43:14Z'
-    stars: 12227
+    lastModified: '2024-07-21T20:59:00Z'
+    stars: 12231
   - title: SharePoint RAG Helper
     description: A tool to support Retrieval Augmented Generation scenarios based
       on SharePoint Online content, focusing on PDF and DOCX documents.
@@ -657,7 +657,7 @@ categories:
     tags:
     - Commercial
     lastModified: '2024-07-21T03:06:17Z'
-    stars: 10640
+    stars: 10644
 - name: Observability and Tracing
   logo: "\U0001F50D"
   type: service
@@ -699,7 +699,7 @@ categories:
     - Structured Outputs
     type: communityOpensource
     lastModified: '2024-07-20T20:26:15Z'
-    stars: 6769
+    stars: 6770
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
     size: 2x2
@@ -769,7 +769,7 @@ categories:
     - Tutorials
     type: officialOpensource
     lastModified: '2024-07-17T21:21:36Z'
-    stars: 57111
+    stars: 57113
   - title: Florence2 Demo
     description: Integrates Florence-2, an advanced vision foundation model, into
       ComfyUI. Supports tasks like captioning, object detection, segmentation, and
@@ -853,7 +853,7 @@ categories:
     - Unit Testing
     type: communityOpensource
     lastModified: '2024-07-21T15:16:09Z'
-    stars: 2464
+    stars: 2465
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
