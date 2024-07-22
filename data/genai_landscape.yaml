@@ -478,16 +478,22 @@ categories:
     type: officialOpensource
     lastModified: '2024-07-21T21:16:38Z'
     stars: 28621
+  - title: Copilot Studio
+    description: Customize Microsoft Copilot for Microsoft 365 or build your own copilot experiences. Design intelligent, actionable, and connected AI assistants for employees and customers with Copilot Studio.
+    github: https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
+    size: 2x2
+    logo: copilotstudio.png
+    tags:
+    - SaaS
+    - Microsoft 365
   - title: TaskWeaver
     description: A code-first agent framework for planning and executing data analytics
       tasks. Preserves both chat and code execution history, ideal for complex data
       structures.
     github: https://github.com/microsoft/TaskWeaver
-    size: 2x2
     logo: taskweaver.png
     tags:
     - Agent Framework
-    - Data Analytics
     - Code Execution
     type: officialOpensource
     lastModified: '2024-07-18T09:35:13Z'
