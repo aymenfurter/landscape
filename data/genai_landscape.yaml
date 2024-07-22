@@ -634,7 +634,7 @@ categories:
     - Managed Service
     - Abstraction
     type: officialOpensource
-  - title: Lanchain
+  - title: Langchain
     logo: "\U0001F4DA"
     description: This sample demonstrates how to use Azure AI Search with OpenAI and
       Langchain, including setup, package installation, environment configuration,
