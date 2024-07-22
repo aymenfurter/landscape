@@ -1,10 +1,10 @@
-# Azure AI Landscape
+# GenAI Landscape
 
 ## Overview
 
-The Azure AI Landscape offers a visual guide to tools, services, and resources in the Azure GenAI ecosystem. It helps developers, data scientists, and AI enthusiasts navigate the Azure AI offersings and popular configurations.
+The GenAI Landscape provides a visual guide to popular tools, SDKs, and services used in conjunction with Azure AI. It helps developers, data scientists, and AI enthusiasts navigate these offerings and popular configurations.
 
-👉 **[View the Azure AI Landscape](https://aymenfurter.github.io/landscape)**
+👉 **[View the GenAI Landscape](https://aymenfurter.github.io/landscape)**
 
 ## Contributing
 
@@ -14,7 +14,7 @@ We welcome contributions to keep the landscape up-to-date:
 2. Add your project to `data/genai_landscape.yaml`
 3. Submit a pull request with a clear description
 
-Anyone is welcome to add a project. I'll personally review and consider each submission. The main goal is to make the world of GenAI services, solution accelerator projects, and libraries easier to navigate.
+Anyone can add a project. I'll personally review and consider each submission. The main goal is to make the world of GenAI services, solution accelerator projects, and libraries easier to navigate.
 
 ## Feedback
 
@@ -26,6 +26,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Explore the Azure AI Landscape and discover powerful tools for your AI projects!
+Explore the GenAI Landscape and discover powerful tools for your AI projects!
 
-[View the Azure AI Landscape](https://aymenfurter.github.io/landscape)
+[View the GenAI Landscape](https://aymenfurter.github.io/landscape)
