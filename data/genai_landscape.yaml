@@ -110,13 +110,13 @@ categories:
     tags:
     - Open Source
     - LLM
-  - title: Stable Diffusion (Stability AI)
-    description: Robust image generation foundational models like Stable Diffusion
-      2.1.
-    github: https://azure.microsoft.com/en-us/products/ai-model-catalog
-    logo: stability.png
+  - title: LLaVA (Microsoft Research)
+    description: Large Language and Vision Assistant. Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.
+    github: https://github.com/haotian-liu/LLaVA
+    logo: 🌋
     tags:
-    - Image Creator
+    - Open Source
+    - Multimodal
   - title: TimeGPT
     description: Pre-trained generative AI transformer model for time-series forecasting
       and anomaly detection.
@@ -350,22 +350,24 @@ categories:
   type: service
   items:
   - title: Azure AI Search
-    description: Secure information retrieval at scale over user-owned content in
-      traditional and generative AI search applications.
+    description: Secure information retrieval at scale over user-owned content in traditional and generative AI search applications.
     github: https://azure.microsoft.com/en-us/products/ai-services/ai-search
     logo: aisearch.png
     size: 2x2
     tags:
-    - AI Search
-    - Information Retrieval
+    - Vector Search
+    - Hybrid Search
+    - Managed Indexer
+    - Semantic Ranker
     type: officialOpensource
   - title: Azure Database for PostgreSQL
     size: 2x2
-    description: Vector similarity search to PostgreSQL through pgvector
+    description: Vector similarity search to PostgreSQL through pgvector.
     github: https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgvector
     logo: postgresql.png
     tags:
     - Vector Search
+    - PostgreSQL
     type: officialOpensource
   - title: Milvus
     description: Hosted on Azure Container Apps for development and prototyping.
@@ -383,14 +385,31 @@ categories:
     - Vector Search
     - Qdrant
     type: officialOpensource
-  - title: Azure CosmosDB
-    description: Vector indexing and search in Azure Cosmos DB for NoSQL.
+  - title: Azure Cosmos DB MongoDB vCore
+    description: Use the Integrated Vector Database in Azure Cosmos DB for MongoDB vCore to seamlessly connect AI-based applications with data stored in Azure Cosmos DB. Efficiently store, index, and query high-dimensional vector data alongside original data.
     size: 2x2
+    github: https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/vector-search
+    logo: cosmosdb.png
+    tags:
+    - Vector Search
+    - MongoDB
+    type: officialOpensource
+  - title: Azure CosmosDB
+    description: Azure Cosmos DB for NoSQL offers vector indexing and search, enabling efficient and accurate handling of high-dimensional vectors alongside traditional data.
     github: https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/vector-search
     logo: cosmosdb.png
     tags:
-    - Vector Indexing
+    - Vector Search
     - NoSQL
+    type: officialOpensource
+  - title: Azure Cache for Redis
+    description: Use Azure Cache for Redis as a vector database for AI applications. It supports vector similarity search with capabilities like KNN and ANN indexing, multiple distance metrics, and hybrid search with powerful query features.
+    github: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview-vector-similarity
+    logo: redis.png
+    size: 2x2
+    tags:
+    - Vector Search
+    - Redis
     type: officialOpensource
   - title: Redis
     description: Hosted on Azure Container Apps for development and prototyping.
@@ -400,6 +419,16 @@ categories:
     - Cache
     - Redis
     type: officialOpensource
+  - title: Azure Data Explorer
+    description: Use Azure Data Explorer for vector similarity search in high-dimensional data analytics.
+    github: https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/azure-data-explorer-for-vector-similarity-search/ba-p/3819626
+    logo: dataexplorer.png
+    size: 2x2
+    tags:
+    - Vector Search 
+    - Cosine Similarity
+    - Data Analytics
+    type: officialOpensource
   - title: Weaviate
     description: Hosted on Azure Container Apps for development and prototyping.
     github: https://learn.microsoft.com/en-us/cli/azure/containerapp/add-on/weaviate
@@ -408,6 +437,8 @@ categories:
     - Vector Search
     - Weaviate
     type: officialOpensource
+
+
 - name: AI Orchestration and AI Agents Frameworks
   logo: "\U0001F574\uFE0F"
   type: tool
@@ -419,36 +450,44 @@ categories:
     size: 2x2
     logo: sk.png
     tags:
-    - LLM
-    - SDK
-    - AI Integration
+    - Java
+    - .NET
+    - Python
+    - Single-Agent
     type: officialOpensource
     lastModified: '2024-07-21T07:17:30Z'
     stars: 20759
+  - title: OpenAI Assistants API
+    logo: openai.png
+    size: 2x2
+    description: OpenAI Assistants (Preview) allows you to create AI assistants tailored to your needs through custom instructions and advanced tools like code interpreter and custom functions. The API supports a wide range of file types and provides enhanced features like file search, vector stores, and tool_choice parameter for specific tool usage.
+    github: https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant
+    tags:
+    - OpenAI
+    - Managed Service
+    - API-based
+    - Single-Agent
+    type: officialOpensource
   - title: LangChain
     description: A framework for developing applications powered by language models,
       simplifying the entire application lifecycle.
     github: https://github.com/langchain-ai/langchain
-    size: 2x2
     logo: "\U0001F99C\uFE0F"
     tags:
-    - LLM
-    - Application Development
-    - AI
+    - Python
+    - Javascript
+    - Single-Agent
     type: communityOpensource
     lastModified: '2024-07-21T23:27:20Z'
     stars: 89512
-  - title: Semantic Kernel Assistants
-    description: Enables the usage of assistants for the Semantic Kernel without relying
-      on OpenAI Assistant APIs. It runs locally planners and plugins for the assistants.
-    github: https://github.com/kbeaugrand/SemanticKernel.Assistants
-    logo: "\U0001F916"
+  - title: LangGraph
+    description: Building language agents as graphs with cycles, controllability, and persistence.
+    github: https://github.com/langchain-ai/langgraph
+    logo: "\U0001F99C\uFE0F"
     tags:
-    - Assistants
-    - AI Integration
+    - Langchain
+    - Multi-Agent
     type: communityOpensource
-    lastModified: '2024-07-21T07:14:24Z'
-    stars: 81
   - title: oagents
     description: 'A .NET framework built on Semantic Kernel and Orleans for event-driven
       AI Agents. Includes samples for GitHub Dev Teams, marketing campaigns, and support
@@ -460,6 +499,7 @@ categories:
     tags:
     - Event-Driven
     - .NET
+    - Multi-Agent
     type: officialOpensource
     lastModified: '2024-07-15T14:18:29Z'
     stars: 217
@@ -473,8 +513,9 @@ categories:
     logo: autogen.png
     size: 2x2
     tags:
-    - AI Agents
-    - Multi-Agent Systems
+    - Python
+    - .NET
+    - Multi-Agents
     type: officialOpensource
     lastModified: '2024-07-21T21:16:38Z'
     stars: 28621
@@ -493,7 +534,7 @@ categories:
     github: https://github.com/microsoft/TaskWeaver
     logo: taskweaver.png
     tags:
-    - Agent Framework
+    - Python
     - Code Execution
     type: officialOpensource
     lastModified: '2024-07-18T09:35:13Z'
@@ -548,7 +589,45 @@ categories:
     type: communityOpensource
     lastModified: '2024-02-01T17:57:06Z'
     stars: 4
-- name: AI Landing Zone Accelerator (e.g. Load Balancing)
+  - title: Integrated Vectorization (AI Search)
+    logo: aisearch.png
+    size: 2x2
+    description: Integrated data chunking and vectorization in Azure AI Search provides capabilities for data chunking during indexing, text-to-vector conversion during indexing and queries. It speeds up development and minimizes maintenance tasks during data ingestion and query time. Integrated vectorization supports various scenarios like building vector stores, hybrid search, and chat-style search. It is available in all regions and tiers.
+    github: https://learn.microsoft.com/en-us/azure/search/vector-search-integrated-vectorization
+    tags:
+    - Azure AI Search
+    - Managed Service
+    type: officialOpensource
+  - title: Ingestion Job API (AOAI)
+    logo: azureai.png
+    size: 2x2
+    description: The Ingestion Job API in Azure OpenAI AI Services allows to easily ingest data from a storage account. It is an abstraction-layer on top of Azure AI Search. 
+    github: https://learn.microsoft.com/en-us/rest/api/azureopenai/ingestion-jobs/create?view=rest-azureopenai-2024-05-01-preview&tabs=HTTP
+    tags:
+    - Azure AI Search
+    - Managed Service
+    - Abstraction
+    type: officialOpensource
+  - title: Lanchain
+    logo: "\U0001F4DA"
+    description: This sample demonstrates how to use Azure AI Search with OpenAI and Langchain, including setup, package installation, environment configuration, and code examples for embedding and vector search.
+    github: https://github.com/Azure/azure-search-vector-samples/blob/main/demo-python/code/community-integration/langchain/azure-search-vector-python-langchain-sample.ipynb
+    tags:
+    - Azure AI Search
+    - LangChain
+    - Python
+    type: officialOpensource
+  - title: Kernel Memory
+    logo: sk.png
+    description: Kernel Memory provides best practices and reference architecture for memory in AI and LLMs, supporting indexing, RAG, and semantic memory processing. Available as a web service, Docker container, plugin, and .NET library.
+    github: https://github.com/microsoft/kernel-memory
+    tags:
+    - Semantic-Kernel
+    - Memory
+    - Indexing
+    - .NET
+    type: officialOpensource
+- name: AI Landing Zone Accelerator 
   logo: "\u2696\uFE0F"
   type: service
   items:
@@ -562,6 +641,7 @@ categories:
     tags:
     - APIM
     - Chargeback
+    - Bicep
     type: communityOpensource
     lastModified: '2024-07-10T20:32:33Z'
     stars: 149
@@ -575,6 +655,7 @@ categories:
     tags:
     - AI Hub
     - Gateway
+    - Bicep
     type: communityOpensource
     lastModified: '2024-07-19T05:18:07Z'
     stars: 52
@@ -591,6 +672,14 @@ categories:
     type: communityOpensource
     lastModified: '2024-07-15T18:17:18Z'
     stars: 85
+  - title: Enterprise Azure AI
+    description: Guidance and tools for implementing Azure OpenAI in a production environment with cost control, secure access, and usage monitoring.
+    github: https://github.com/Azure/enterprise-azureai
+    logo: apim.png
+    tags:
+    - Streaming
+    - Bicep
+    type: communityOpensource
   - title: Logging Proxy
     description: A sample app to capture OpenAI Completion Tokens when using streaming
       responses, using OpenResty to reverse proxy the OpenAI endpoint and log responses.
@@ -599,9 +688,51 @@ categories:
     tags:
     - Logging
     - Streaming
+    - Python
     type: communityOpensource
     lastModified: '2023-10-19T17:24:56Z'
     stars: 10
+  - title: Azure OpenAI Application Landing Zone
+    description: Solution accelerator to quickly set up development and production environments for Generative AI solutions using Azure Open AI and Azure Services. Includes deployment templates and best practices.
+    github: https://github.com/Azure/azure-openai-landing-zone
+    logo: apim.png
+    tags:
+    - APIM 
+    - LoadBalancing
+    - Bicep
+    - Terraform
+    type: communityOpensource
+  - title: APIM Smart Load Balancing
+    size: 2x2
+    description: Smart Load Balancing for OpenAI Endpoints and Azure API Management.
+    github: https://github.com/Azure-Samples/openai-apim-lb
+    logo: "\U0001F680"
+    tags:
+    - APIM
+    - LoadBalancing
+    type: communityOpensource
+    lastModified: '2024-06-18T15:49:12Z'
+    stars: 51
+  - title: ACA Smart Load Balancing
+    description: Smart load balancing for OpenAI endpoints using YARP C# reverse-proxy
+      framework.
+    github: https://github.com/Azure-Samples/openai-aca-lb
+    logo: "\U0001F680"
+    tags:
+    - LoadBalancing
+    type: communityOpensource
+    lastModified: '2024-07-03T05:29:35Z'
+    stars: 33
+  - title: LiteLLM
+    description: A library to simplify calling AI models from different providers
+      using a unified interface. Supports 100+ LLMs including OpenAI, Azure, Anthropic,
+      Cohere, Replicate, Amazon Bedrock, and more.
+    github: https://github.com/BerriAI/litellm
+    logo: "\U0001F685"
+    tags:
+    - Commercial
+    lastModified: '2024-07-21T03:06:17Z'
+    stars: 10644
   - title: APIM Chargeback
     description: A solution for token usage tracking and chargeback for Azure OpenAI
       using Azure API Management, Event Hub, and Azure Function.
@@ -634,36 +765,6 @@ categories:
     type: communityOpensource
     lastModified: '2024-06-19T21:33:58Z'
     stars: 1
-  - title: openai-aca-lb
-    description: Smart load balancing for OpenAI endpoints using YARP C# reverse-proxy
-      framework.
-    github: https://github.com/Azure-Samples/openai-aca-lb
-    logo: "\U0001F680"
-    tags:
-    - LoadBalancing
-    type: communityOpensource
-    lastModified: '2024-07-03T05:29:35Z'
-    stars: 33
-  - title: openai-apim-lb
-    description: Smart Load Balancing for OpenAI Endpoints and Azure API Management.
-    github: https://github.com/Azure-Samples/openai-apim-lb
-    logo: "\U0001F680"
-    tags:
-    - APIM
-    - LoadBalancing
-    type: communityOpensource
-    lastModified: '2024-06-18T15:49:12Z'
-    stars: 51
-  - title: LiteLLM
-    description: A library to simplify calling AI models from different providers
-      using a unified interface. Supports 100+ LLMs including OpenAI, Azure, Anthropic,
-      Cohere, Replicate, Amazon Bedrock, and more.
-    github: https://github.com/BerriAI/litellm
-    logo: "\U0001F685"
-    tags:
-    - Commercial
-    lastModified: '2024-07-21T03:06:17Z'
-    stars: 10644
 - name: Observability and Tracing
   logo: "\U0001F50D"
   type: service
@@ -679,10 +780,63 @@ categories:
     - OpenTelemetry
     - LLM
     type: officialOpensource
-- name: Prompt Engineering Libraries
+  - title: LangSmith (LangChain)
+    description: Observability platform for LangChain apps to debug, evaluate, and monitor LangChain-based applications. Self-hosting option is available.
+    github: https://github.com/langchain-ai/langsmith-sdk
+    logo: 🛠️
+    tags:
+    - SDK
+    - LLM
+    - Debug
+    - Monitor
+
+- name: Prompt Engineering
   logo: "\U0001F4AC"
   type: tool
   items:
+  - title: Tree of Thought
+    logo: 🌳
+    github: https://github.com/princeton-nlp/tree-of-thought-llm
+    tags:
+    - Problem Solving
+    - AI
+    type: communityOpensource
+  - title: Promptbase
+    logo: microsoft.png
+    size: 2x2
+    description: promptbase is an evolving collection of resources, best practices, and example scripts for eliciting the best performance from foundation models like GPT-4. The collection includes the Medprompt methodology, and examples of extending prompting techniques into non-medical domains. It also includes benchmark results and strategies like dynamic few-shot learning, self-generated chain of thought, and choice-shuffle ensembling.
+    github: https://github.com/microsoft/promptbase
+    tags:
+    - Prompt Engineering
+    - AI
+    type: officialOpensource
+
+  - title: Self-Instruct
+    logo: 📝
+    description: Self-Instruct is a framework for improving the instruction-following capabilities of language models by generating instructional data through an iterative bootstrapping process. It helps in building models that follow natural language instructions across a wide range of tasks.
+    github: https://github.com/yizhongw/self-instruct
+    tags:
+    - Instruction Tuning
+    - AI
+    type: communityOpensource
+
+  - title: SELF-RAG
+    logo: 🔄
+    description: SELF-RAG is a framework that trains language models to retrieve, generate, and critique information through self-reflection, enhancing factuality and quality without losing versatility. It employs segment-wise beam search to select optimal outputs.
+    github: https://github.com/spcl/graph-of-thoughts
+    tags:
+    - Retrieval
+    - AI
+    type: communityOpensource
+
+  - title: BioGPT
+    logo: 🧬
+    description: BioGPT is a generative pre-trained transformer for biomedical text generation and mining. The repository includes implementation details, pre-trained models, and fine-tuned checkpoints for various biomedical tasks.
+    github: https://github.com/microsoft/BioGPT
+    tags:
+    - Biomedical
+    - AI
+    type: officialOpensource
   - title: Guidance
     description: An efficient programming paradigm for steering language models. It
       allows users to constrain generation and interleave control and generation seamlessly.
@@ -708,7 +862,6 @@ categories:
     stars: 6770
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
-    size: 2x2
     description: This project demonstrates a hybrid approach combining OCR and LLM
       to improve information extraction from documents without pre-training. Using
       Azure Document Intelligence and GPT4-Vision, the solution leverages the strengths
@@ -776,29 +929,34 @@ categories:
     type: officialOpensource
     lastModified: '2024-07-17T21:21:36Z'
     stars: 57113
+  - title: JARVIS
+    logo: "\U0001F916"
+    description: JARVIS aims to explore artificial general intelligence (AGI) and deliver cutting-edge research to the community. The project integrates numerous AI models to solve complex tasks through a collaborative system consisting of an LLM as the controller and expert models as executors. JARVIS supports task planning, model selection, task execution, and response generation.
+    github: https://github.com/microsoft/JARVIS
+    tags:
+    - Task Planning
+    type: officialOpensource
+  - title: Miyagi
+    logo: miyagi.png
+    size: 2x2
+    description: Project Miyagi showcases Microsoft's Copilot Stack in an envisioning workshop aimed at designing, developing, and deploying enterprise-grade intelligent apps. It offers an experiential approach to developing AI-infused product experiences that enhance productivity and enable hyper-personalization. The project includes examples of Semantic Kernel, Promptflow, LlamaIndex, LangChain, vector stores, and fine-tuned models from AzureML.
+    github: https://github.com/Azure-Samples/miyagi
+    tags:
+    - Semantic-Kernel
+    - Langchain
+    - Llamaindex
+    type: officialOpensource
   - title: Florence2 Demo
     description: Integrates Florence-2, an advanced vision foundation model, into
       ComfyUI. Supports tasks like captioning, object detection, segmentation, and
       Document Visual Question Answering (DocVQA).
     github: https://github.com/kijai/ComfyUI-Florence2
     logo: "\U0001F5BC\uFE0F"
-    size: 2x2
     tags:
     - Computer Vision
     type: communityOpensource
     lastModified: '2024-07-21T12:41:57Z'
     stars: 356
-  - title: Agentic Cookbook
-    description: Sample implementations for conversational agents using the Autogen
-      framework, including tutorials and best practices.
-    github: https://github.com/microsoft/AgenticCookBook
-    logo: "\U0001F373"
-    tags:
-    - AutoGen
-    - Tutorial
-    type: communityOpensource
-    lastModified: '2024-06-19T22:14:13Z'
-    stars: 27
   - title: Battle of the Semantics
     description: Comparison of GraphRag and Embeddings Index for Retrieval-Augmented
       Generation (RAG) to improve context accuracy in LLM-generated content.
@@ -810,6 +968,39 @@ categories:
     type: communityOpensource
     lastModified: '2024-07-14T17:50:49Z'
     stars: 12
+  - title: Agentic Cookbook
+    description: Sample implementations for conversational agents using the Autogen
+      framework, including tutorials and best practices.
+    github: https://github.com/microsoft/AgenticCookBook
+    logo: "\U0001F373"
+    tags:
+    - AutoGen
+    - Tutorial
+    type: communityOpensource
+    lastModified: '2024-06-19T22:14:13Z'
+    stars: 27
+  - title: Azure AI Fundamentals
+    description: Generative AI learning path covering large language models, Azure OpenAI Service, and ethical AI principles.
+    github: https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/
+    logo: "\U0001F4DA"
+    tags:
+    - Azure Fundamentals
+
+  - title: Golden Datasets
+    description: Guidance for creating golden datasets for quality assurance in Copilot experiences.
+    github: https://github.com/microsoft/promptflow-resource-hub/blob/main/sample_gallery/golden_dataset/copilot-golden-dataset-creation-guidance.md
+    logo: "\U0001F3C6"
+    tags:
+    - Responsible AI
+
+  - title: HAX Toolkit
+    description: Resources and tools for building responsible, human-centered AI experiences at Microsoft.
+    github: https://www.microsoft.com/en-us/haxtoolkit/
+    logo: "\U0001F4BB"
+    tags:
+    - ResponsibleAI
+
+
 - name: Model Evaluation
   logo: "\U0001F4CA"
   type: tool
@@ -863,8 +1054,44 @@ categories:
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
+    logo: "\U0001F4CA"
     tags:
     - Model Evaluation
     type: officialOpensource
     lastModified: '2024-07-17T17:21:49Z'
     stars: 168
+  - title: PyRIT
+    description: The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and machine learning engineers to proactively find risks in their generative AI systems.
+    github: https://github.com/Azure/PyRIT
+    logo: "\U0001F3F4\u200D\u2620\uFE0F"
+    size: 2x2
+    tags:
+    - Red Teaming
+    type: officialOpensource
+  - title: Azure AI Content Safety
+    description: Detecting harmful user-generated and AI-generated content in applications and services.
+    github: https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety
+    logo: "\U0001F6E1"
+    tags:
+    - Content Safety
+    - Text and Image APIs
+    - Interactive Studio
+    type: officialDocs
+
+  - title: Responsible AI Tracker
+    description: JupyterLab Extension for managing, tracking, and comparing results of machine learning experiments.
+    github: https://github.com/microsoft/responsible-ai-toolbox-tracker/tree/main
+    logo: "\U0001F9F0"
+    tags:
+    - JupyterLab Extension
+    - Responsible AI
+    type: officialOpensource
+
+  - title: Benchmarking Tool
+    description: Tool for benchmarking provisioned-throughput deployments in Azure OpenAI.
+    github: https://github.com/Azure/azure-openai-benchmark
+    logo: "\u26A0"
+    tags:
+    - Benchmarking
+    - OpenAI
+    type: officialOpensource
