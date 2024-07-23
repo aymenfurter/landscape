@@ -621,6 +621,7 @@ categories:
     tags:
     - Azure AI Search
     - Managed Service
+    - OneLake
     type: officialOpensource
   - title: Ingestion Job API (AOAI)
     logo: azureai.png
@@ -983,13 +984,27 @@ categories:
       by Microsoft Cloud Advocates.
     github: https://github.com/microsoft/generative-ai-for-beginners
     logo: "\U0001F393"
-    size: 2x2
     tags:
     - Generative AI
     - Tutorials
     type: officialOpensource
     lastModified: '2024-07-17T21:21:36Z'
     stars: 57220
+   - title: Microsoft Fabric LLM
+    description: Files around the Build Event / Session on "Generative AI on your data with Microsoft Fabric and LLMs".
+    github: https://github.com/claudiomirti/microsoft-fabric-LLM
+    logo: 🧠
+    tags:
+    - Microsoft Fabric
+    type: officialOpensource
+  - title: Microsoft Fabric Data Science
+    description: The provided Notebooks serve as an interactive introduction to the Microsoft Data Science experience by randomly generated data. 
+    github: https://github.com/claudiomirti/microsoft-fabric-data-science
+    logo: 📊
+    tags:
+    - Data Science
+    - Microsoft Fabric
+    type: officialOpensource
   - title: JARVIS
     logo: "\U0001F916"
     description: JARVIS aims to explore artificial general intelligence (AGI) and
