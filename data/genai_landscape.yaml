@@ -348,6 +348,14 @@ categories:
     type: communityOpensource
     lastModified: '2023-06-29T17:26:53Z'
     stars: 189
+  - title: Azure OpenAI Terraform deployment for sample chatbot
+    description: This sample application deploys an AI-powered document search using Azure OpenAI Service, Azure Kubernetes Service (AKS), and a Python application leveraging the Llama index ans Streamlit.
+    github: https://github.com/Azure-Samples/azure-openai-terraform-deployment-sample/
+    logo: "\U0001F680"
+  - title: Cheshire Cat AI
+    description: Cheshire Cat AI is a production-ready AI framework. Create your agent with a few lines of Python!
+    github: https://github.com/cheshire-cat-ai/core
+    logo: "Logo-Cheshire-Cat.svg"
 - name: Vector Databases
   logo: "\U0001F5C3\uFE0F"
   type: service
