@@ -352,7 +352,7 @@ categories:
     description: This sample application deploys an AI-powered document search using
       Azure OpenAI Service, Azure Kubernetes Service (AKS), and a Python application
       leveraging the Llama index ans Streamlit.
-    github: https://github.com/Azure-Samples/azure-openai-terraform-deployment-sample/
+    github: https://github.com/Azure-Samples/azure-openai-terraform-deployment-sample
     logo: "\U0001F680"
   - title: Cheshire Cat AI
     description: Cheshire Cat AI is a production-ready AI framework. Create your agent
