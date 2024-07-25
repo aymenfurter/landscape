@@ -355,7 +355,7 @@ categories:
   - title: Cheshire Cat AI
     description: Cheshire Cat AI is a production-ready AI framework. Create your agent with a few lines of Python!
     github: https://github.com/cheshire-cat-ai/core
-    logo: "Logo-Cheshire-Cat.svg"
+    logo: "Logo-Cheshire-Cat.png"
 - name: Vector Databases
   logo: "\U0001F5C3\uFE0F"
   type: service
