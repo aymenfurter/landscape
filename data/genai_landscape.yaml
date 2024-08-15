@@ -119,7 +119,7 @@ categories:
     - Open Source
     - Multimodal
     lastModified: '2024-08-12T09:52:38Z'
-    stars: 18681
+    stars: 18711
   - title: TimeGPT
     description: Pre-trained generative AI transformer model for time-series forecasting
       and anomaly detection.
@@ -143,8 +143,8 @@ categories:
     - Clean
     - Azure On Your Data
     type: officialOpensource
-    lastModified: '2024-08-13T20:50:09Z'
-    stars: 1518
+    lastModified: '2024-08-14T17:32:46Z'
+    stars: 1519
   - title: Chat with Your Data
     description: Solution Accelerator for the Retrieval-Augmented Generation (RAG)
       pattern running in Azure. Utilizes Azure AI Search for retrieval and Azure OpenAI
@@ -156,8 +156,8 @@ categories:
     - Admin UI
     - Python
     type: communityOpensource
-    lastModified: '2024-08-13T11:31:03Z'
-    stars: 715
+    lastModified: '2024-08-14T08:52:23Z'
+    stars: 717
   - title: Chat with Your Data (Java)
     description: Java version of the sample app for ChatGPT + Enterprise data, demonstrating
       the Retrieval-Augmented Generation pattern using Azure AI Search and Azure OpenAI.
@@ -167,7 +167,7 @@ categories:
     - RAG
     - Java
     type: communityOpensource
-    lastModified: '2024-08-09T14:42:09Z'
+    lastModified: '2024-08-14T13:25:12Z'
     stars: 71
   - title: Chat with Your Data (C#)
     description: Sample app for the Retrieval-Augmented Generation pattern using Azure
@@ -180,7 +180,7 @@ categories:
     - C#
     type: communityOpensource
     lastModified: '2024-08-08T11:17:40Z'
-    stars: 570
+    stars: 572
   - title: GraphRAG Accelerator
     description: Solution accelerator for GraphRAG, exposing API endpoints hosted
       on Azure to trigger indexing pipelines and enable querying of the GraphRAG knowledge
@@ -193,8 +193,8 @@ categories:
     - GraphRAG
     - Azure Kubernetes Service
     type: communityOpensource
-    lastModified: '2024-08-13T20:41:32Z'
-    stars: 1448
+    lastModified: '2024-08-14T17:51:59Z'
+    stars: 1460
   - title: SmartRAG
     description: Elevating Retrieval-Augmented Generation (RAG) with Multi-Agent Systems
       and better indexing, using Azure services and AutoGen framework.
@@ -219,8 +219,8 @@ categories:
     - "Well-maintained \u2764\uFE0F"
     - Python
     type: communityOpensource
-    lastModified: '2024-08-13T12:55:38Z'
-    stars: 5750
+    lastModified: '2024-08-14T03:14:36Z'
+    stars: 5757
   - title: Custom Copilot
     description: AI-assisted code editor with intelligent code suggestions, XML validation,
       error highlighting, theme customization, and chat integration using Monaco editor
@@ -233,7 +233,7 @@ categories:
     - Monaco
     type: communityOpensource
     lastModified: '2024-06-19T05:00:57Z'
-    stars: 15
+    stars: 16
   - title: LLMOps
     description: Template and guidance for building LLM-infused apps using Prompt
       Flow. Features include Centralized Code Hosting, Lifecycle Management, Variant
@@ -246,7 +246,7 @@ categories:
     - Prompt Flow
     type: communityOpensource
     lastModified: '2024-08-09T12:48:11Z'
-    stars: 230
+    stars: 233
   - title: Knowledge Mining with OpenAI
     description: An accelerator for deploying a Python-based Knowledge Mining solution
       with OpenAI, using Azure Cognitive Search and other Azure services.
@@ -269,7 +269,7 @@ categories:
     - Bot Framework
     type: communityOpensource
     lastModified: '2024-07-10T16:12:59Z'
-    stars: 367
+    stars: 369
   - title: Embeddings QnA
     logo: "\U0001F4DA"
     description: A simple web application for OpenAI-enabled document search. Uses
@@ -347,7 +347,7 @@ categories:
     - Azure AI
     type: communityOpensource
     lastModified: '2023-06-29T17:26:53Z'
-    stars: 190
+    stars: 191
   - title: Azure OpenAI Terraform deployment for sample chatbot
     description: This sample application deploys an AI-powered document search using
       Azure OpenAI Service, Azure Kubernetes Service (AKS), and a Python application
@@ -480,8 +480,8 @@ categories:
     - Python
     - Single-Agent
     type: officialOpensource
-    lastModified: '2024-08-13T23:52:31Z'
-    stars: 21005
+    lastModified: '2024-08-14T23:58:49Z'
+    stars: 21013
   - title: OpenAI Assistants API
     logo: openai.png
     size: 2x2
@@ -507,8 +507,8 @@ categories:
     - Javascript
     - Single-Agent
     type: communityOpensource
-    lastModified: '2024-08-14T00:03:08Z'
-    stars: 90628
+    lastModified: '2024-08-15T00:00:44Z'
+    stars: 90696
   - title: LangGraph
     description: Building language agents as graphs with cycles, controllability,
       and persistence.
@@ -518,8 +518,8 @@ categories:
     - Langchain
     - Multi-Agent
     type: communityOpensource
-    lastModified: '2024-08-13T23:49:14Z'
-    stars: 5067
+    lastModified: '2024-08-14T22:53:51Z'
+    stars: 5080
   - title: oagents
     description: 'A .NET framework built on Semantic Kernel and Orleans for event-driven
       AI Agents. Includes samples for GitHub Dev Teams, marketing campaigns, and support
@@ -533,8 +533,8 @@ categories:
     - .NET
     - Multi-Agent
     type: officialOpensource
-    lastModified: '2024-08-06T09:39:06Z'
-    stars: 221
+    lastModified: '2024-08-14T10:04:18Z'
+    stars: 222
   - title: AutoGen
     description: 'A framework for building AI agents and multi-agent systems. Supports
       various LLMs, autonomous workflows, and multi-agent conversations. Contributions
@@ -549,8 +549,8 @@ categories:
     - .NET
     - Multi-Agents
     type: officialOpensource
-    lastModified: '2024-08-13T17:12:09Z'
-    stars: 29604
+    lastModified: '2024-08-14T20:23:55Z'
+    stars: 29622
   - title: Copilot Studio
     description: Customize Microsoft Copilot for Microsoft 365 or build your own copilot
       experiences. Design intelligent, actionable, and connected AI assistants for
@@ -572,7 +572,7 @@ categories:
     - Code Execution
     type: officialOpensource
     lastModified: '2024-07-26T10:23:37Z'
-    stars: 5102
+    stars: 5101
 - name: Data Ingestion and Indexing
   logo: "\U0001F4E5"
   type: tool
@@ -610,8 +610,8 @@ categories:
     - Data Pipeline
     - LLM
     type: communityOpensource
-    lastModified: '2024-08-13T23:34:40Z'
-    stars: 14643
+    lastModified: '2024-08-14T22:40:49Z'
+    stars: 14732
   - title: SharePoint RAG Helper
     description: A tool to support Retrieval Augmented Generation scenarios based
       on SharePoint Online content, focusing on PDF and DOCX documents.
@@ -674,7 +674,7 @@ categories:
     - .NET
     type: officialOpensource
     lastModified: '2024-08-08T23:53:38Z'
-    stars: 1435
+    stars: 1436
 - name: AI Landing Zone Accelerator
   logo: "\u2696\uFE0F"
   type: service
@@ -718,8 +718,8 @@ categories:
     - Load Balancing
     - Monitoring
     type: communityOpensource
-    lastModified: '2024-08-13T18:20:14Z'
-    stars: 91
+    lastModified: '2024-08-14T08:03:19Z'
+    stars: 92
   - title: Enterprise Azure AI
     description: Guidance and tools for implementing Azure OpenAI in a production
       environment with cost control, secure access, and usage monitoring.
@@ -755,8 +755,8 @@ categories:
     - Bicep
     - Terraform
     type: communityOpensource
-    lastModified: '2024-08-09T15:46:28Z'
-    stars: 61
+    lastModified: '2024-08-14T12:31:25Z'
+    stars: 62
   - title: APIM Smart Load Balancing
     size: 2x2
     description: Smart Load Balancing for OpenAI Endpoints and Azure API Management.
@@ -786,8 +786,8 @@ categories:
     logo: "\U0001F685"
     tags:
     - Commercial
-    lastModified: '2024-08-14T00:02:17Z'
-    stars: 11308
+    lastModified: '2024-08-15T00:03:56Z'
+    stars: 11352
   - title: APIM Chargeback
     description: A solution for token usage tracking and chargeback for Azure OpenAI
       using Azure API Management, Event Hub, and Azure Function.
@@ -846,7 +846,7 @@ categories:
     - Debug
     - Monitor
     lastModified: '2024-08-13T19:03:46Z'
-    stars: 363
+    stars: 364
 - name: Prompt Engineering
   logo: "\U0001F4AC"
   type: tool
@@ -859,7 +859,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2024-06-22T22:47:56Z'
-    stars: 4478
+    stars: 4483
   - title: Promptbase
     logo: microsoft.png
     size: 2x2
@@ -875,7 +875,7 @@ categories:
     - AI
     type: officialOpensource
     lastModified: '2024-06-04T13:26:33Z'
-    stars: 5303
+    stars: 5304
   - title: Self-Instruct
     logo: "\U0001F4DD"
     description: Self-Instruct is a framework for improving the instruction-following
@@ -888,7 +888,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2023-03-27T18:18:51Z'
-    stars: 4007
+    stars: 4011
   - title: SELF-RAG
     logo: "\U0001F504"
     description: SELF-RAG is a framework that trains language models to retrieve,
@@ -901,7 +901,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2024-06-03T12:05:38Z'
-    stars: 2020
+    stars: 2021
   - title: BioGPT
     logo: "\U0001F9EC"
     description: BioGPT is a generative pre-trained transformer for biomedical text
@@ -925,8 +925,8 @@ categories:
     - Token optimization
     type: communityOpensource
     size: 2x2
-    lastModified: '2024-08-13T21:48:59Z'
-    stars: 18455
+    lastModified: '2024-08-14T23:46:11Z'
+    stars: 18465
   - title: Instructor
     description: A Python library for structured outputs from large language models
       (LLMs), built on top of Pydantic.
@@ -936,7 +936,7 @@ categories:
     - Structured Outputs
     type: communityOpensource
     lastModified: '2024-08-10T02:54:37Z'
-    stars: 7111
+    stars: 7119
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
     description: This project demonstrates a hybrid approach combining OCR and LLM
@@ -959,8 +959,8 @@ categories:
     - Debugging
     - AI
     type: officialOpensource
-    lastModified: '2024-08-08T16:50:49Z'
-    stars: 302
+    lastModified: '2024-08-14T22:51:52Z'
+    stars: 305
 - name: Model Serving
   logo: "\U0001F37D\uFE0F"
   type: service
@@ -983,8 +983,8 @@ categories:
       configurations, and auto-provisioning GPU nodes.
     github: https://github.com/Azure/kaito
     logo: kubernetes.png
-    stars: 371
-    lastModified: '2024-08-13T23:45:33Z'
+    stars: 372
+    lastModified: '2024-08-14T19:40:16Z'
     size: 2x2
     tags:
     - Kubernetes
@@ -1003,8 +1003,8 @@ categories:
     - Generative AI
     - Tutorials
     type: officialOpensource
-    lastModified: '2024-08-08T14:08:41Z'
-    stars: 58156
+    lastModified: '2024-08-14T13:59:05Z'
+    stars: 58181
   - title: Microsoft Fabric LLM
     description: Files around the Build Event / Session on "Generative AI on your
       data with Microsoft Fabric and LLMs".
@@ -1038,7 +1038,7 @@ categories:
     - Task Planning
     type: officialOpensource
     lastModified: '2024-04-24T01:38:16Z'
-    stars: 23462
+    stars: 23467
   - title: Miyagi
     logo: miyagi.png
     size: 2x2
@@ -1066,7 +1066,7 @@ categories:
     - Computer Vision
     type: communityOpensource
     lastModified: '2024-08-05T13:17:17Z'
-    stars: 464
+    stars: 472
   - title: Battle of the Semantics
     description: Comparison of GraphRag and Embeddings Index for Retrieval-Augmented
       Generation (RAG) to improve context accuracy in LLM-generated content.
@@ -1088,7 +1088,7 @@ categories:
     - Tutorial
     type: communityOpensource
     lastModified: '2024-06-19T22:14:13Z'
-    stars: 30
+    stars: 32
   - title: Azure AI Fundamentals
     description: Generative AI learning path covering large language models, Azure
       OpenAI Service, and ethical AI principles.
@@ -1123,8 +1123,8 @@ categories:
     - Prompt Engineering
     - Model Evaluation
     type: officialOpensource
-    lastModified: '2024-08-13T20:07:10Z'
-    stars: 9019
+    lastModified: '2024-08-14T23:58:16Z'
+    stars: 9022
   - title: RAGAS
     description: A framework for evaluating Retrieval Augmented Generation (RAG) pipelines,
       providing tools based on the latest research for evaluating LLM-generated text.
@@ -1134,8 +1134,8 @@ categories:
     - Evaluation
     - LLM
     type: communityOpensource
-    lastModified: '2024-08-13T18:46:03Z'
-    stars: 6114
+    lastModified: '2024-08-14T18:24:49Z'
+    stars: 6125
   - title: TruLens
     description: A set of tools for developing and monitoring neural nets, including
       LLMs. Includes TruLens-Eval for LLM evaluation and TruLens-Explain for deep
@@ -1146,8 +1146,8 @@ categories:
     - Evaluation
     - Monitoring
     type: communityOpensource
-    lastModified: '2024-08-13T23:19:24Z'
-    stars: 1932
+    lastModified: '2024-08-14T22:20:25Z'
+    stars: 1935
   - title: DeepEval
     description: An open-source LLM evaluation framework similar to Pytest but specialized
       for unit testing LLM outputs. Incorporates latest research for evaluating LLM
@@ -1158,8 +1158,8 @@ categories:
     - Evaluation
     - Unit Testing
     type: communityOpensource
-    lastModified: '2024-08-12T16:26:32Z'
-    stars: 2683
+    lastModified: '2024-08-14T18:21:52Z'
+    stars: 2695
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
@@ -1168,7 +1168,7 @@ categories:
     - Model Evaluation
     type: officialOpensource
     lastModified: '2024-07-17T17:21:49Z'
-    stars: 175
+    stars: 176
   - title: PyRIT
     description: The Python Risk Identification Tool for generative AI (PyRIT) is
       an open access automation framework to empower security professionals and machine
@@ -1179,8 +1179,8 @@ categories:
     tags:
     - Red Teaming
     type: officialOpensource
-    lastModified: '2024-08-13T23:51:39Z'
-    stars: 1640
+    lastModified: '2024-08-14T23:49:17Z'
+    stars: 1644
   - title: Azure AI Content Safety
     description: Detecting harmful user-generated and AI-generated content in applications
       and services.
@@ -1210,4 +1210,4 @@ categories:
     - OpenAI
     type: officialOpensource
     lastModified: '2024-05-28T18:40:07Z'
-    stars: 111
+    stars: 112
