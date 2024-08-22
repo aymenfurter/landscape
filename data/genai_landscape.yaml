@@ -90,7 +90,7 @@ categories:
     description: Pre-trained, open language models ranging from 8 billion to 70 billion
       parameters.
     github: https://azure.microsoft.com/en-us/products/ai-model-catalog
-    logo: meta.png
+    logo: meta-logo-primary_standardsize.png
     tags:
     - Open Source
     - LLM
@@ -542,7 +542,7 @@ categories:
 
       '
     github: https://github.com/microsoft/autogen
-    logo: autogen.png
+    logo: ag.png
     size: 2x2
     tags:
     - Python
@@ -662,7 +662,7 @@ categories:
     - Python
     type: officialOpensource
   - title: Kernel Memory
-    logo: sk.png
+    logo: Large_SK_Logo.png
     description: Kernel Memory provides best practices and reference architecture
       for memory in AI and LLMs, supporting indexing, RAG, and semantic memory processing.
       Available as a web service, Docker container, plugin, and .NET library.
