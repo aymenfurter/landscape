@@ -364,7 +364,7 @@ body {
 }
 
 .item-tag, .tag {
-    font-size: 6px;
+    font-size: 8px;
     padding: 1px 3px;
     border-radius: 3px;
     color: #fff;
@@ -372,7 +372,7 @@ body {
 }
 
 .item-2x2 .item-tag {
-    font-size: 8px;
+    font-size: 10px;
     padding: 2px 4px;
 }
 
