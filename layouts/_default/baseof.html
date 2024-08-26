@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="css/main.css">
+    <!-- Minify CSS -->
+    {{ $css := resources.Get "css/main.css" }}
+    {{ if $css }}
+        {{ $css = $css | resources.Minify | resources.Fingerprint }}
+        <link href="{{ $css.RelPermalink }}" rel="stylesheet">
+    {{ else }}
+        <link href="/css/main.css" rel="stylesheet">
+    {{ end }}
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <meta property="og:image" content="https://aymenfurter.github.io/landscape/images/preview.png">
     
@@ -15,6 +22,13 @@
         {{ block "main" . }}{{ end }}
     </div>
     {{ partial "footer.html" . }}
-    <script src="js/main.js"></script>
+    <!-- Minify JS -->
+    {{ $js := resources.Get "js/main.js" }}
+    {{ if $js }}
+        {{ $js = $js | resources.Minify | resources.Fingerprint }}
+        <script src="{{ $js.RelPermalink }}"></script>
+    {{ else }}
+        <script src="js/main.js"></script>
+    {{ end }}
 </body>
 </html>

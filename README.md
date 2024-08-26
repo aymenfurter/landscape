@@ -24,6 +24,23 @@ For feedback, suggestions, or issues, please open an issue in this repository.
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Getting Started
+
+To install Hugo on Windows, follow these steps:
+
+1. Run winget install Hugo.Hugo.Extended in Admin mode.
+2. Validate installation by hugo --verison
+
+To run a Hugo-based app locally, use the following command:
+
+```bash
+hugo serve -w
+```
+
+This command starts a local development server and watches for changes in your Hugo project. The -w flag enables the watch on the file system.
+
+After running the command, you can access your Hugo app by opening a web browser and navigating to http://localhost:1313.
+
 ---
 
 Explore the GenAI Landscape and discover powerful tools for your AI projects!
