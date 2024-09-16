@@ -36,14 +36,12 @@ categories:
     - OpenAI
     - LLM
     type: 1P
-  - title: GPT-3.5
-    description: A set of models that improve on GPT-3 and can understand and generate
-      natural language and code.
+  - title: o1
+    description: A new series of reasoning models for solving hard problems. 
     github: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
     logo: openai.png
     tags:
-    - OpenAI
-    - LLM
+    - Reasoning
     type: 1P
   - title: text-embedding-ada-002
     description: Models that convert text into numerical vector form to facilitate
@@ -729,7 +727,7 @@ categories:
     - Streaming
     - Bicep
     type: communityOpensource
-    lastModified: '2024-08-30T10:29:23Z'
+  lastModified: '2024-08-30T10:29:23Z'
     stars: 80
   - title: Logging Proxy
     description: A sample app to capture OpenAI Completion Tokens when using streaming
@@ -778,16 +776,6 @@ categories:
     type: communityOpensource
     lastModified: '2024-07-03T05:29:35Z'
     stars: 38
-  - title: LiteLLM
-    description: A library to simplify calling AI models from different providers
-      using a unified interface. Supports 100+ LLMs including OpenAI, Azure, Anthropic,
-      Cohere, Replicate, Amazon Bedrock, and more.
-    github: https://github.com/BerriAI/litellm
-    logo: "\U0001F685"
-    tags:
-    - Commercial
-    lastModified: '2024-09-15T20:57:46Z'
-    stars: 12234
   - title: APIM Chargeback
     description: A solution for token usage tracking and chargeback for Azure OpenAI
       using Azure API Management, Event Hub, and Azure Function.
@@ -835,18 +823,6 @@ categories:
     - OpenTelemetry
     - LLM
     type: officialOpensource
-  - title: LangSmith (LangChain)
-    description: Observability platform for LangChain apps to debug, evaluate, and
-      monitor LangChain-based applications. Self-hosting option is available.
-    github: https://github.com/langchain-ai/langsmith-sdk
-    logo: "\U0001F6E0\uFE0F"
-    tags:
-    - SDK
-    - LLM
-    - Debug
-    - Monitor
-    lastModified: '2024-09-15T05:09:04Z'
-    stars: 371
 - name: Prompt Engineering
   logo: "\U0001F4AC"
   type: tool
@@ -1107,7 +1083,7 @@ categories:
     description: Resources and tools for building responsible, human-centered AI experiences
       at Microsoft.
     github: https://www.microsoft.com/en-us/haxtoolkit/
-    logo: "\U0001F4BB"
+logo: "\U0001F4BB"
     tags:
     - ResponsibleAI
 - name: Model Evaluation
@@ -1125,41 +1101,6 @@ categories:
     type: officialOpensource
     lastModified: '2024-09-13T08:00:52Z'
     stars: 9182
-  - title: RAGAS
-    description: A framework for evaluating Retrieval Augmented Generation (RAG) pipelines,
-      providing tools based on the latest research for evaluating LLM-generated text.
-    github: https://github.com/explodinggradients/ragas
-    logo: ragas.png
-    tags:
-    - Evaluation
-    - LLM
-    type: communityOpensource
-    lastModified: '2024-09-15T04:18:49Z'
-    stars: 6563
-  - title: TruLens
-    description: A set of tools for developing and monitoring neural nets, including
-      LLMs. Includes TruLens-Eval for LLM evaluation and TruLens-Explain for deep
-      learning explainability.
-    github: https://github.com/truera/trulens
-    logo: "\U0001F991"
-    tags:
-    - Evaluation
-    - Monitoring
-    type: communityOpensource
-    lastModified: '2024-09-15T18:42:39Z'
-    stars: 2046
-  - title: DeepEval
-    description: An open-source LLM evaluation framework similar to Pytest but specialized
-      for unit testing LLM outputs. Incorporates latest research for evaluating LLM
-      outputs based on various metrics.
-    github: https://github.com/confident-ai/deepeval
-    logo: deepeval.png
-    tags:
-    - Evaluation
-    - Unit Testing
-    type: communityOpensource
-    lastModified: '2024-09-13T06:41:16Z'
-    stars: 2974
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
