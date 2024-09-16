@@ -727,7 +727,7 @@ categories:
     - Streaming
     - Bicep
     type: communityOpensource
-  lastModified: '2024-08-30T10:29:23Z'
+    lastModified: '2024-08-30T10:29:23Z'
     stars: 80
   - title: Logging Proxy
     description: A sample app to capture OpenAI Completion Tokens when using streaming
