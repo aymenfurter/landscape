@@ -1083,7 +1083,7 @@ categories:
     description: Resources and tools for building responsible, human-centered AI experiences
       at Microsoft.
     github: https://www.microsoft.com/en-us/haxtoolkit/
-logo: "\U0001F4BB"
+    logo: "\U0001F4BB"
     tags:
     - ResponsibleAI
 - name: Model Evaluation
