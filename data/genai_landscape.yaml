@@ -117,7 +117,7 @@ categories:
     - Open Source
     - Multimodal
     lastModified: '2024-08-12T09:52:38Z'
-    stars: 23792
+    stars: 23801
   - title: TimeGPT
     description: Pre-trained generative AI transformer model for time-series forecasting
       and anomaly detection.
@@ -142,7 +142,7 @@ categories:
     - Azure On Your Data
     type: officialOpensource
     lastModified: '2025-10-20T06:15:00Z'
-    stars: 1901
+    stars: 1902
   - title: Chat with Your Data
     description: Solution Accelerator for the Retrieval-Augmented Generation (RAG)
       pattern running in Azure. Utilizes Azure AI Search for retrieval and Azure OpenAI
@@ -166,7 +166,7 @@ categories:
     - Java
     type: communityOpensource
     lastModified: '2025-07-24T10:03:23Z'
-    stars: 119
+    stars: 120
   - title: Chat with Your Data (C#)
     description: Sample app for the Retrieval-Augmented Generation pattern using Azure
       Cognitive Search and Azure OpenAI large language models for ChatGPT-style and
@@ -204,7 +204,7 @@ categories:
     - Azure
     type: communityOpensource
     lastModified: '2025-08-21T20:13:50Z'
-    stars: 80
+    stars: 81
   - title: Azure Search OpenAI Demo
     description: Sample app demonstrating the Retrieval-Augmented Generation pattern
       in Azure. Uses Azure AI Search for retrieval and Azure OpenAI large language
@@ -217,8 +217,8 @@ categories:
     - "Well-maintained \u2764\uFE0F"
     - Python
     type: communityOpensource
-    lastModified: '2025-10-20T14:13:42Z'
-    stars: 7384
+    lastModified: '2025-10-22T20:01:21Z'
+    stars: 7385
   - title: Custom Copilot
     description: AI-assisted code editor with intelligent code suggestions, XML validation,
       error highlighting, theme customization, and chat integration using Monaco editor
@@ -244,7 +244,7 @@ categories:
     - Prompt Flow
     type: communityOpensource
     lastModified: '2025-04-22T20:31:50Z'
-    stars: 341
+    stars: 342
   - title: Knowledge Mining with OpenAI
     description: An accelerator for deploying a Python-based Knowledge Mining solution
       with OpenAI, using Azure Cognitive Search and other Azure services.
@@ -359,8 +359,8 @@ categories:
       with a few lines of Python!
     github: https://github.com/cheshire-cat-ai/core
     logo: Logo-Cheshire-Cat.png
-    lastModified: '2025-10-17T19:32:11Z'
-    stars: 2886
+    lastModified: '2025-10-22T23:56:46Z'
+    stars: 2888
 - name: Vector Databases
   logo: "\U0001F5C3\uFE0F"
   type: service
@@ -478,8 +478,8 @@ categories:
     - Python
     - Single-Agent
     type: officialOpensource
-    lastModified: '2025-10-21T18:02:09Z'
-    stars: 26505
+    lastModified: '2025-10-22T07:39:46Z'
+    stars: 26507
   - title: OpenAI Assistants API
     logo: openai.png
     size: 2x2
@@ -505,8 +505,8 @@ categories:
     - Javascript
     - Single-Agent
     type: communityOpensource
-    lastModified: '2025-10-21T21:08:43Z'
-    stars: 117691
+    lastModified: '2025-10-22T21:01:33Z'
+    stars: 117779
   - title: LangGraph
     description: Building language agents as graphs with cycles, controllability,
       and persistence.
@@ -516,8 +516,8 @@ categories:
     - Langchain
     - Multi-Agent
     type: communityOpensource
-    lastModified: '2025-10-21T00:27:02Z'
-    stars: 20055
+    lastModified: '2025-10-22T17:35:17Z'
+    stars: 20091
   - title: oagents
     description: 'A .NET framework built on Semantic Kernel and Orleans for event-driven
       AI Agents. Includes samples for GitHub Dev Teams, marketing campaigns, and support
@@ -548,7 +548,7 @@ categories:
     - Multi-Agents
     type: officialOpensource
     lastModified: '2025-10-08T04:58:17Z'
-    stars: 50977
+    stars: 51016
   - title: Copilot Studio
     description: Customize Microsoft Copilot for Microsoft 365 or build your own copilot
       experiences. Design intelligent, actionable, and connected AI assistants for
@@ -570,7 +570,7 @@ categories:
     - Code Execution
     type: officialOpensource
     lastModified: '2025-10-20T09:34:00Z'
-    stars: 5947
+    stars: 5950
 - name: Data Ingestion and Indexing
   logo: "\U0001F4E5"
   type: tool
@@ -608,8 +608,8 @@ categories:
     - Data Pipeline
     - LLM
     type: communityOpensource
-    lastModified: '2025-10-21T21:30:52Z'
-    stars: 28762
+    lastModified: '2025-10-22T21:52:54Z'
+    stars: 28776
   - title: SharePoint RAG Helper
     description: A tool to support Retrieval Augmented Generation scenarios based
       on SharePoint Online content, focusing on PDF and DOCX documents.
@@ -672,7 +672,7 @@ categories:
     - .NET
     type: officialOpensource
     lastModified: '2025-09-17T18:40:19Z'
-    stars: 2082
+    stars: 2083
 - name: AI Landing Zone Accelerator
   logo: "\u2696\uFE0F"
   type: service
@@ -716,7 +716,7 @@ categories:
     - Load Balancing
     - Monitoring
     type: communityOpensource
-    lastModified: '2025-10-21T07:36:52Z'
+    lastModified: '2025-10-22T18:09:03Z'
     stars: 109
   - title: Enterprise Azure AI
     description: Guidance and tools for implementing Azure OpenAI in a production
@@ -902,7 +902,7 @@ categories:
     type: communityOpensource
     size: 2x2
     lastModified: '2025-10-14T16:07:07Z'
-    stars: 20859
+    stars: 20864
   - title: Instructor
     description: A Python library for structured outputs from large language models
       (LLMs), built on top of Pydantic.
@@ -912,7 +912,7 @@ categories:
     - Structured Outputs
     type: communityOpensource
     lastModified: '2025-10-21T03:23:38Z'
-    stars: 11668
+    stars: 11678
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
     description: This project demonstrates a hybrid approach combining OCR and LLM
@@ -936,7 +936,7 @@ categories:
     - AI
     type: officialOpensource
     lastModified: '2025-10-20T21:59:45Z'
-    stars: 1069
+    stars: 1071
 - name: Model Serving
   logo: "\U0001F37D\uFE0F"
   type: service
@@ -959,8 +959,8 @@ categories:
       configurations, and auto-provisioning GPU nodes.
     github: https://github.com/Azure/kaito
     logo: kubernetes.png
-    stars: 771
-    lastModified: '2025-10-21T19:43:07Z'
+    stars: 772
+    lastModified: '2025-10-22T16:32:25Z'
     size: 2x2
     tags:
     - Kubernetes
@@ -980,7 +980,7 @@ categories:
     - Tutorials
     type: officialOpensource
     lastModified: '2025-10-20T03:13:22Z'
-    stars: 100699
+    stars: 100735
   - title: Microsoft Fabric LLM
     description: Files around the Build Event / Session on "Generative AI on your
       data with Microsoft Fabric and LLMs".
@@ -1014,7 +1014,7 @@ categories:
     - Task Planning
     type: officialOpensource
     lastModified: '2025-07-29T13:44:13Z'
-    stars: 24411
+    stars: 24408
   - title: Miyagi
     logo: miyagi.png
     size: 2x2
@@ -1042,7 +1042,7 @@ categories:
     - Computer Vision
     type: communityOpensource
     lastModified: '2025-08-09T09:11:04Z'
-    stars: 1463
+    stars: 1464
   - title: Battle of the Semantics
     description: Comparison of GraphRag and Embeddings Index for Retrieval-Augmented
       Generation (RAG) to improve context accuracy in LLM-generated content.
@@ -1100,7 +1100,7 @@ categories:
     - Model Evaluation
     type: officialOpensource
     lastModified: '2025-10-13T21:12:24Z'
-    stars: 10818
+    stars: 10821
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
@@ -1109,7 +1109,7 @@ categories:
     - Model Evaluation
     type: officialOpensource
     lastModified: '2025-10-13T08:24:20Z'
-    stars: 309
+    stars: 310
   - title: PyRIT
     description: The Python Risk Identification Tool for generative AI (PyRIT) is
       an open access automation framework to empower security professionals and machine
@@ -1120,8 +1120,8 @@ categories:
     tags:
     - Red Teaming
     type: officialOpensource
-    lastModified: '2025-10-21T06:30:39Z'
-    stars: 2995
+    lastModified: '2025-10-22T20:20:08Z'
+    stars: 2999
   - title: Azure AI Content Safety
     description: Detecting harmful user-generated and AI-generated content in applications
       and services.
