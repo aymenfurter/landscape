@@ -117,7 +117,7 @@ categories:
     - Open Source
     - Multimodal
     lastModified: '2024-08-12T09:52:38Z'
-    stars: 24613
+    stars: 24619
   - title: TimeGPT
     description: Pre-trained generative AI transformer model for time-series forecasting
       and anomaly detection.
@@ -141,7 +141,7 @@ categories:
     - Clean
     - Azure On Your Data
     type: officialOpensource
-    lastModified: '2026-03-20T00:39:35Z'
+    lastModified: '2026-03-26T15:45:04Z'
     stars: 1922
   - title: Chat with Your Data
     description: Solution Accelerator for the Retrieval-Augmented Generation (RAG)
@@ -154,8 +154,8 @@ categories:
     - Admin UI
     - Python
     type: communityOpensource
-    lastModified: '2026-03-19T13:02:40Z'
-    stars: 1160
+    lastModified: '2026-03-26T17:38:16Z'
+    stars: 1161
   - title: Chat with Your Data (Java)
     description: Java version of the sample app for ChatGPT + Enterprise data, demonstrating
       the Retrieval-Augmented Generation pattern using Azure AI Search and Azure OpenAI.
@@ -217,8 +217,8 @@ categories:
     - "Well-maintained \u2764\uFE0F"
     - Python
     type: communityOpensource
-    lastModified: '2026-03-25T21:04:03Z'
-    stars: 7602
+    lastModified: '2026-03-26T13:30:11Z'
+    stars: 7609
   - title: Custom Copilot
     description: AI-assisted code editor with intelligent code suggestions, XML validation,
       error highlighting, theme customization, and chat integration using Monaco editor
@@ -345,7 +345,7 @@ categories:
     - Azure AI
     type: communityOpensource
     lastModified: '2023-06-29T17:26:53Z'
-    stars: 264
+    stars: 265
   - title: Azure OpenAI Terraform deployment for sample chatbot
     description: This sample application deploys an AI-powered document search using
       Azure OpenAI Service, Azure Kubernetes Service (AKS), and a Python application
@@ -360,7 +360,7 @@ categories:
     github: https://github.com/cheshire-cat-ai/core
     logo: Logo-Cheshire-Cat.png
     lastModified: '2026-03-14T21:20:37Z'
-    stars: 3001
+    stars: 3002
 - name: Vector Databases
   logo: "\U0001F5C3\uFE0F"
   type: service
@@ -478,8 +478,8 @@ categories:
     - Python
     - Single-Agent
     type: officialOpensource
-    lastModified: '2026-03-25T06:50:50Z'
-    stars: 27563
+    lastModified: '2026-03-26T16:18:07Z'
+    stars: 27569
   - title: OpenAI Assistants API
     logo: openai.png
     size: 2x2
@@ -505,8 +505,8 @@ categories:
     - Javascript
     - Single-Agent
     type: communityOpensource
-    lastModified: '2026-03-25T15:16:49Z'
-    stars: 131087
+    lastModified: '2026-03-26T17:00:22Z'
+    stars: 131232
   - title: LangGraph
     description: Building language agents as graphs with cycles, controllability,
       and persistence.
@@ -516,8 +516,8 @@ categories:
     - Langchain
     - Multi-Agent
     type: communityOpensource
-    lastModified: '2026-03-25T19:56:38Z'
-    stars: 27475
+    lastModified: '2026-03-26T06:44:05Z'
+    stars: 27586
   - title: oagents
     description: 'A .NET framework built on Semantic Kernel and Orleans for event-driven
       AI Agents. Includes samples for GitHub Dev Teams, marketing campaigns, and support
@@ -547,8 +547,8 @@ categories:
     - .NET
     - Multi-Agents
     type: officialOpensource
-    lastModified: '2026-03-25T23:07:37Z'
-    stars: 56198
+    lastModified: '2026-03-26T03:15:39Z'
+    stars: 56258
   - title: Copilot Studio
     description: Customize Microsoft Copilot for Microsoft 365 or build your own copilot
       experiences. Design intelligent, actionable, and connected AI assistants for
@@ -608,8 +608,8 @@ categories:
     - Data Pipeline
     - LLM
     type: communityOpensource
-    lastModified: '2026-03-24T17:15:50Z'
-    stars: 31776
+    lastModified: '2026-03-26T18:15:26Z'
+    stars: 31796
   - title: SharePoint RAG Helper
     description: A tool to support Retrieval Augmented Generation scenarios based
       on SharePoint Online content, focusing on PDF and DOCX documents.
@@ -672,7 +672,7 @@ categories:
     - .NET
     type: officialOpensource
     lastModified: '2025-12-18T17:56:15Z'
-    stars: 2144
+    stars: 2145
 - name: AI Landing Zone Accelerator
   logo: "\u2696\uFE0F"
   type: service
@@ -690,7 +690,7 @@ categories:
     - Bicep
     type: communityOpensource
     lastModified: '2026-03-23T17:19:02Z'
-    stars: 895
+    stars: 894
   - title: AI Hub Gateway Landing Zone
     description: Solution accelerator providing guidelines and best practices for
       implementing a central AI API gateway to empower various business units in leveraging
@@ -716,7 +716,7 @@ categories:
     - Load Balancing
     - Monitoring
     type: communityOpensource
-    lastModified: '2026-03-24T18:04:13Z'
+    lastModified: '2026-03-26T13:19:42Z'
     stars: 110
   - title: Enterprise Azure AI
     description: Guidance and tools for implementing Azure OpenAI in a production
@@ -851,7 +851,7 @@ categories:
     - AI
     type: officialOpensource
     lastModified: '2024-06-04T13:26:33Z'
-    stars: 5742
+    stars: 5741
   - title: Self-Instruct
     logo: "\U0001F4DD"
     description: Self-Instruct is a framework for improving the instruction-following
@@ -864,7 +864,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2023-03-27T18:18:51Z'
-    stars: 4587
+    stars: 4588
   - title: SELF-RAG
     logo: "\U0001F504"
     description: SELF-RAG is a framework that trains language models to retrieve,
@@ -877,7 +877,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2026-03-24T17:26:16Z'
-    stars: 2620
+    stars: 2621
   - title: BioGPT
     logo: "\U0001F9EC"
     description: BioGPT is a generative pre-trained transformer for biomedical text
@@ -902,7 +902,7 @@ categories:
     type: communityOpensource
     size: 2x2
     lastModified: '2026-03-18T22:18:46Z'
-    stars: 21365
+    stars: 21366
   - title: Instructor
     description: A Python library for structured outputs from large language models
       (LLMs), built on top of Pydantic.
@@ -912,7 +912,7 @@ categories:
     - Structured Outputs
     type: communityOpensource
     lastModified: '2026-03-23T21:59:36Z'
-    stars: 12599
+    stars: 12606
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
     description: This project demonstrates a hybrid approach combining OCR and LLM
@@ -935,7 +935,7 @@ categories:
     - Debugging
     - AI
     type: officialOpensource
-    lastModified: '2026-03-25T23:04:03Z'
+    lastModified: '2026-03-26T20:08:03Z'
     stars: 1173
 - name: Model Serving
   logo: "\U0001F37D\uFE0F"
@@ -959,8 +959,8 @@ categories:
       configurations, and auto-provisioning GPU nodes.
     github: https://github.com/Azure/kaito
     logo: kubernetes.png
-    stars: 905
-    lastModified: '2026-03-25T23:02:28Z'
+    stars: 906
+    lastModified: '2026-03-26T23:19:48Z'
     size: 2x2
     tags:
     - Kubernetes
@@ -979,8 +979,8 @@ categories:
     - Generative AI
     - Tutorials
     type: officialOpensource
-    lastModified: '2026-03-23T09:49:03Z'
-    stars: 108528
+    lastModified: '2026-03-26T03:43:56Z'
+    stars: 108577
   - title: Microsoft Fabric LLM
     description: Files around the Build Event / Session on "Generative AI on your
       data with Microsoft Fabric and LLMs".
@@ -1014,7 +1014,7 @@ categories:
     - Task Planning
     type: officialOpensource
     lastModified: '2025-07-29T13:44:13Z'
-    stars: 24597
+    stars: 24596
   - title: Miyagi
     logo: miyagi.png
     size: 2x2
@@ -1100,7 +1100,7 @@ categories:
     - Model Evaluation
     type: officialOpensource
     lastModified: '2026-03-17T19:53:38Z'
-    stars: 11078
+    stars: 11079
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
     github: https://github.com/Azure-Samples/ai-rag-chat-evaluator
@@ -1120,8 +1120,8 @@ categories:
     tags:
     - Red Teaming
     type: officialOpensource
-    lastModified: '2026-03-25T23:01:55Z'
-    stars: 3605
+    lastModified: '2026-03-26T22:25:31Z'
+    stars: 3615
   - title: Azure AI Content Safety
     description: Detecting harmful user-generated and AI-generated content in applications
       and services.
