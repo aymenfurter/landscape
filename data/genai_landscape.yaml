@@ -117,7 +117,7 @@ categories:
     - Open Source
     - Multimodal
     lastModified: '2024-08-12T09:52:38Z'
-    stars: 24875
+    stars: 24872
   - title: TimeGPT
     description: Pre-trained generative AI transformer model for time-series forecasting
       and anomaly detection.
@@ -141,7 +141,7 @@ categories:
     - Clean
     - Azure On Your Data
     type: officialOpensource
-    lastModified: '2026-06-17T02:26:14Z'
+    lastModified: '2026-06-18T12:20:16Z'
     stars: 1923
   - title: Chat with Your Data
     description: Solution Accelerator for the Retrieval-Augmented Generation (RAG)
@@ -154,7 +154,7 @@ categories:
     - Admin UI
     - Python
     type: communityOpensource
-    lastModified: '2026-06-17T02:50:49Z'
+    lastModified: '2026-06-18T15:25:44Z'
     stars: 1172
   - title: Chat with Your Data (Java)
     description: Java version of the sample app for ChatGPT + Enterprise data, demonstrating
@@ -178,7 +178,7 @@ categories:
     - C#
     type: communityOpensource
     lastModified: '2025-07-29T20:22:37Z'
-    stars: 834
+    stars: 835
   - title: GraphRAG Accelerator
     description: Solution accelerator for GraphRAG, exposing API endpoints hosted
       on Azure to trigger indexing pipelines and enable querying of the GraphRAG knowledge
@@ -217,8 +217,8 @@ categories:
     - "Well-maintained \u2764\uFE0F"
     - Python
     type: communityOpensource
-    lastModified: '2026-06-17T15:10:41Z'
-    stars: 7692
+    lastModified: '2026-06-18T21:31:39Z'
+    stars: 7693
   - title: Custom Copilot
     description: AI-assisted code editor with intelligent code suggestions, XML validation,
       error highlighting, theme customization, and chat integration using Monaco editor
@@ -230,7 +230,7 @@ categories:
     - AI
     - Monaco
     type: communityOpensource
-    lastModified: '2026-06-10T15:01:53Z'
+    lastModified: '2026-06-18T20:37:58Z'
     stars: 52
   - title: LLMOps
     description: Template and guidance for building LLM-infused apps using Prompt
@@ -359,7 +359,7 @@ categories:
       with a few lines of Python!
     github: https://github.com/cheshire-cat-ai/core
     logo: Logo-Cheshire-Cat.png
-    lastModified: '2026-06-17T18:59:49Z'
+    lastModified: '2026-06-18T12:31:42Z'
     stars: 3045
 - name: Vector Databases
   logo: "\U0001F5C3\uFE0F"
@@ -479,7 +479,7 @@ categories:
     - Single-Agent
     type: officialOpensource
     lastModified: '2026-06-17T13:33:59Z'
-    stars: 28154
+    stars: 28160
   - title: OpenAI Assistants API
     logo: openai.png
     size: 2x2
@@ -505,8 +505,8 @@ categories:
     - Javascript
     - Single-Agent
     type: communityOpensource
-    lastModified: '2026-06-17T21:17:17Z'
-    stars: 139576
+    lastModified: '2026-06-18T20:35:33Z'
+    stars: 139657
   - title: LangGraph
     description: Building language agents as graphs with cycles, controllability,
       and persistence.
@@ -516,8 +516,8 @@ categories:
     - Langchain
     - Multi-Agent
     type: communityOpensource
-    lastModified: '2026-06-17T20:45:03Z'
-    stars: 35062
+    lastModified: '2026-06-18T20:58:31Z'
+    stars: 35156
   - title: oagents
     description: 'A .NET framework built on Semantic Kernel and Orleans for event-driven
       AI Agents. Includes samples for GitHub Dev Teams, marketing campaigns, and support
@@ -548,7 +548,7 @@ categories:
     - Multi-Agents
     type: officialOpensource
     lastModified: '2026-04-15T11:59:09Z'
-    stars: 59042
+    stars: 59060
   - title: Copilot Studio
     description: Customize Microsoft Copilot for Microsoft 365 or build your own copilot
       experiences. Design intelligent, actionable, and connected AI assistants for
@@ -608,8 +608,8 @@ categories:
     - Data Pipeline
     - LLM
     type: communityOpensource
-    lastModified: '2026-06-17T01:17:17Z'
-    stars: 33822
+    lastModified: '2026-06-18T21:34:48Z'
+    stars: 33849
   - title: SharePoint RAG Helper
     description: A tool to support Retrieval Augmented Generation scenarios based
       on SharePoint Online content, focusing on PDF and DOCX documents.
@@ -690,7 +690,7 @@ categories:
     - Bicep
     type: communityOpensource
     lastModified: '2026-06-17T13:33:10Z'
-    stars: 944
+    stars: 945
   - title: AI Hub Gateway Landing Zone
     description: Solution accelerator providing guidelines and best practices for
       implementing a central AI API gateway to empower various business units in leveraging
@@ -703,7 +703,7 @@ categories:
     - Gateway
     - Bicep
     type: communityOpensource
-    lastModified: '2026-06-10T08:08:07Z'
+    lastModified: '2026-06-18T13:07:45Z'
     stars: 286
   - title: PowerProxy for Azure OpenAI
     description: A Python-based open source solution accelerator that monitors and
@@ -716,7 +716,7 @@ categories:
     - Load Balancing
     - Monitoring
     type: communityOpensource
-    lastModified: '2026-06-15T18:03:45Z'
+    lastModified: '2026-06-18T18:03:06Z'
     stars: 110
   - title: Enterprise Azure AI
     description: Guidance and tools for implementing Azure OpenAI in a production
@@ -835,7 +835,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2025-01-16T20:02:00Z'
-    stars: 5999
+    stars: 6001
   - title: Promptbase
     logo: microsoft.png
     size: 2x2
@@ -877,7 +877,7 @@ categories:
     - AI
     type: communityOpensource
     lastModified: '2026-03-24T17:26:16Z'
-    stars: 2705
+    stars: 2720
   - title: BioGPT
     logo: "\U0001F9EC"
     description: BioGPT is a generative pre-trained transformer for biomedical text
@@ -902,7 +902,7 @@ categories:
     type: communityOpensource
     size: 2x2
     lastModified: '2026-05-21T17:08:04Z'
-    stars: 21502
+    stars: 21504
   - title: Instructor
     description: A Python library for structured outputs from large language models
       (LLMs), built on top of Pydantic.
@@ -912,7 +912,7 @@ categories:
     - Structured Outputs
     type: communityOpensource
     lastModified: '2026-06-15T05:05:32Z'
-    stars: 13189
+    stars: 13190
   - title: ARGUS
     logo: "\U0001F575\uFE0F"
     description: This project demonstrates a hybrid approach combining OCR and LLM
@@ -935,7 +935,7 @@ categories:
     - Debugging
     - AI
     type: officialOpensource
-    lastModified: '2026-06-17T01:08:35Z'
+    lastModified: '2026-06-18T21:34:53Z'
     stars: 1220
 - name: Model Serving
   logo: "\U0001F37D\uFE0F"
@@ -959,8 +959,8 @@ categories:
       configurations, and auto-provisioning GPU nodes.
     github: https://github.com/Azure/kaito
     logo: kubernetes.png
-    stars: 965
-    lastModified: '2026-06-17T17:26:56Z'
+    stars: 968
+    lastModified: '2026-06-19T00:22:31Z'
     size: 2x2
     tags:
     - Kubernetes
@@ -979,8 +979,8 @@ categories:
     - Generative AI
     - Tutorials
     type: officialOpensource
-    lastModified: '2026-06-11T03:44:25Z'
-    stars: 112100
+    lastModified: '2026-06-18T03:43:49Z'
+    stars: 112127
   - title: Microsoft Fabric LLM
     description: Files around the Build Event / Session on "Generative AI on your
       data with Microsoft Fabric and LLMs".
@@ -1014,7 +1014,7 @@ categories:
     - Task Planning
     type: officialOpensource
     lastModified: '2025-07-29T13:44:13Z'
-    stars: 24859
+    stars: 24863
   - title: Miyagi
     logo: miyagi.png
     size: 2x2
@@ -1099,7 +1099,7 @@ categories:
     - Prompt Engineering
     - Model Evaluation
     type: officialOpensource
-    lastModified: '2026-06-16T10:07:09Z'
+    lastModified: '2026-06-18T13:16:52Z'
     stars: 11154
   - title: Azure AI Evaluate SDK
     description: Evaluating a RAG Chat App using scripts and tools.
@@ -1121,7 +1121,7 @@ categories:
     - Red Teaming
     type: officialOpensource
     lastModified: '2026-03-25T01:18:52Z'
-    stars: 63
+    stars: 62
   - title: Azure AI Content Safety
     description: Detecting harmful user-generated and AI-generated content in applications
       and services.
